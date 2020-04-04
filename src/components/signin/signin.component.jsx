@@ -25,8 +25,8 @@ class SignIn  extends React.Component{
     };
 
     handleChange= event=>{
-        const {name, defaultValue}= event.target;
-        this.setState({[name]:defaultValue})
+        const {name, value}= event.target;
+        this.setState({[name]:value})
     }
 
 
@@ -41,7 +41,7 @@ class SignIn  extends React.Component{
                 <FormInput
                     name="email" 
                     type="text"
-                    defaultValue={this.state.email} 
+                    value={this.state.email} 
                     onChange={this.handleChange}
                     label='Email'
                     required               
@@ -50,7 +50,7 @@ class SignIn  extends React.Component{
                 <FormInput
                     name="password" 
                     type="password"
-                    defaultValue={this.state.password} 
+                    value={this.state.password} 
                     onChange={this.handleChange}
                     label='Password'
                     required               
