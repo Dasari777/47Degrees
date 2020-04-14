@@ -6,7 +6,7 @@ import Signup from '../../components/signup/signup.component';
 
 
 
-const Signin_Signup=()=>(
+const SigninSignup=()=>(
     <div className="sign-in-and-sign-up">
 
         <SignIn/>
@@ -16,4 +16,4 @@ const Signin_Signup=()=>(
 )
 
 
-export default Signin_Signup
+export default SigninSignup
