@@ -1,5 +1,6 @@
 import cartActionTypes from './cart.actionsTypes'
 import {addItemToCart} from './cart.utils';
+// import { connect } from 'react-redux';
 
 const INITIAL_STATE={
     hidden:true,
@@ -25,4 +26,4 @@ const cartReducer =(state=INITIAL_STATE, action)=>{
     }
 }
 
-export default cartReducer
+export default  cartReducer
